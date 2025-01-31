@@ -437,7 +437,7 @@ input, select, textarea {
 		background-position: calc(100% - 1rem) center;
 		height: 2.75rem;
 		padding-right: 2.75rem;
-		text-overflow: ellipsis;
+		
 	}
 
 		select option {
@@ -1258,6 +1258,7 @@ input, select, textarea {
 		background-image: -webkit-radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%);
 		background-image: -ms-radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%);
 		background-image: radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%);
+background-repeat: no-repeat; 
 		max-width: 100%;
 		text-align: center;
 	}
